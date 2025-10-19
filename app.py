@@ -2,6 +2,21 @@
 # Webová appka pro základní kvantitativní analýzy s česky psanou interpretací.
 # Spuštění: 1) pip install -r requirements.txt  2) streamlit run app.py
 
+import streamlit as st
+
+st.set_page_config(
+    page_title="QuantBuddy — chytrý parťák pro analýzu dat",
+    page_icon="📊",
+    layout="wide"
+)
+
+st.markdown("""
+# QuantBuddy 📊  
+*Tvůj chytrý parťák pro kvantitativní výzkum.*  
+Nahraj data → vyber analýzu → získej výsledky i interpretaci v češtině.
+""")
+
+
 import io
 import tempfile
 import textwrap
