@@ -193,8 +193,7 @@ def build_docx(report_title, meta, results_text, fig_bytes=None):
 # UI
 # ---------------------------
 
-st.title("📊 QuantBuddy — MVP")
-st.write("Chytrý parťák pro základní kvantitativní analýzy a česky psanou interpretaci.")
+
 
 with st.sidebar:
     st.header("1) Nahraj data")
